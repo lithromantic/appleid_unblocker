@@ -10,11 +10,11 @@ from unblocker import unblocker_class
 #IMAP ssl设置
 host = 'imap.sina.com'
 user = 'appleidjiesuoba@sina.com'
-passwd = 'c17c915dfc619cde'
+passwd = '#####'
 #获取邮箱文件夹，INBOX表示默认收件箱
 mail_directory = 'INBOX'
 log_level = logging.DEBUG   #log记录等级
-appleid_pas="Shadowrocket7"     #Apple id 的密码
+appleid_pas="####"     #Apple id 的密码
 
 logging.basicConfig(filename='mail.log',level=log_level,format='%(asctime)s - %(levelname)s - %(message)s',datefmt="%Y/%m/%d %H:%M:%S %p")
 
